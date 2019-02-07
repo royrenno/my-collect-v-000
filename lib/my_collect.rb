@@ -14,5 +14,5 @@ while i < collection.length
   lang.upcase
 end
  my_collect(student) do |student|
-   student.split (" ").first
+   student.split (" ") [0]
  end
