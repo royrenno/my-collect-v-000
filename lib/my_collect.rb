@@ -13,3 +13,6 @@ while i < collection.length
  my_collect(collection) do |lang|
   lang.upcase
 end
+ my_collect(student) do |student|
+   student.split (" ") [0]
+ end
